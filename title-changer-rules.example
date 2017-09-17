@@ -1,0 +1,6 @@
+# 1. match method, 2. search phrase or regex, 3. new title
+text,urxvt,Terminal
+text,IntelliJ IDEA,IntelliJ
+regex,.*Calendar.*,Calendar
+class,Google-chrome,Chrome
+class,Sublime_text,Sublime

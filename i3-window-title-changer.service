@@ -1,0 +1,8 @@
+[Unit]
+Description=i3 window title changer daemon based on simple patterns
+
+[Service]
+Type=simple
+Environment=DISPLAY=:0
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/path/to/i3_window_title_changer.py
