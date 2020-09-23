@@ -83,7 +83,7 @@ def parse_cli_arguments():
 
 def print_i3_socket_path():
     print('$I3SOCK:', os.environ.get('I3SOCK'))
-    print('i3 --get-socket-path:', end=' ', flush=True)
+    print('i3 --get-socketpath:', end=' ', flush=True)
     subprocess.run(['i3', '--get-socketpath'])
 
 
